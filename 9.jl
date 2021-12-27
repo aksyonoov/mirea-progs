@@ -36,7 +36,7 @@ function wer(r::Robot, side::HorizonSide, num_steps::Int)
 end    
 
 
-function Roma(r::Robot)
+function abc(r::Robot)
     a = 1
     f = 0
     
