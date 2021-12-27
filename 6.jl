@@ -167,8 +167,6 @@ function perebor_kletok(r::Robot)
         fcope[2] = inverse(fcope[2])
         if fcope[2] == West && fcope[2] == Ost
             wer(r, fcope[2], fcope[1])
-        else
-            wer(r, fcope[2], fcope[1])
             
         end
     end
